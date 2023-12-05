@@ -1,0 +1,465 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("images/background-image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keep the background fixed */
+    background-position: center;
+    overflow: auto; /* Enable scrolling */
+    background-color: #eff8e2;
+  }
+  
+
+ .topnav {
+        
+        margin-top: 1px;
+        position: fixed;
+        margin-left:570px;
+      }
+      
+      /* Style the links inside the navigation bar */
+ .topnav a {
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      /* Change the color of links on hover */
+.topnav a:hover {
+        background-color: #b2a3f6;
+        color: rgb(41, 4, 249);
+      }
+      
+      
+       .intro {
+        color: aliceblue;
+        
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 1000;
+        
+    }
+     
+
+
+#HEYY animation
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #3725f9;
+  --color-secondary: #2a3bf5;
+  --color-tertiary: #2618f6;
+  --color-quaternary: #1121f5;
+  --color-quinary: #0116fc;
+  /*
+  --color-primary: #5192ED;
+  --color-secondary: #69A1F0;
+  --color-tertiary: #7EAEF2;
+  --color-quaternary: #90BAF5;
+  --color-quinary: #A2C4F5;
+  */
+}
+
+
+
+.content {
+  display: flex;
+  
+
+}
+
+.text_shadows {
+  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+    9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(2rem + 5vw);
+  text-align: center;
+  margin: 0;
+  color: var(--color-primary);
+  
+  animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  10% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  20% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  30% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  40% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  50% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  70% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  80% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  90% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+  }
+  60% {
+    transform: translate(-12px, -12px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+#typing effect animation code
+
+.wrapper {
+    height: 10vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  
+  }
+  
+  .typing-demo {
+    width: 40ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #76b0f3;
+    
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+.wavingperson{
+  float: right;
+  height: 350px;
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 100px;
+  border-radius: 140px;
+  
+}
+.float-container {
+  padding: 20px;
+}
+
+.float-child {
+  float: left;
+  padding: 20px;
+
+}  
+
+.headingabout{
+  margin-top: 700px;
+  color: #f2f2f2;
+  margin-left: 580px;
+}
+#about{
+  color: aliceblue;
+}
+
+.aboutsentence{
+  margin-left: 300px;
+  margin-top: 90px;
+}
+
+.school{
+  margin-top: 50px;
+  margin-left:160px;
+  padding: 20px;
+}
+.pu{
+  float: left;
+}
+
+#skills{
+  color: aliceblue;
+  margin-bottom:400px;
+}
+
+.headingskills{
+  margin-top: 250px;
+   color: #f2f2f2;
+  margin-left: 620px;
+
+}
+
+.frontend-img{
+
+  width:300px;
+  height:300px;
+  padding: 50px;
+  border-radius: 80px;
+}
+.backend-img{
+  margin-left: 100px;
+  width:300px;
+  height:300px;
+  padding: 50px;
+  border-radius: 80px;
+  float: left;
+
+}
+.prog-lang{
+  width:300px;
+  height:300px;
+  padding: 50px;
+  border-radius: 80px;
+  float: left;
+
+}
+
+.headingextra{
+
+   color: #f2f2f2;
+  margin-left: 550px;
+  margin-top: 200px;
+}
+
+#certifications{
+  color: white;
+}
+
+.cert-heading{
+  margin-left:580px;
+  margin-bottom:150px;
+}
+
+.udemy-python{
+  width:300px;
+  height: 200px;
+  margin-left:100px;
+}
+
+.udemy-web{
+  width:300px;
+  height: 200px;
+  margin-left:100px;
+}
+
+.linkedin-learn{
+  width:300px;
+  height: 200px;
+  margin-left:100px;
+}
+
+
+.rotaract-img{
+  width:300px;
+  height:300px;
+  padding: 50px;
+  border-radius: 80px;
+
+}
+
+.ieee-img{
+  margin-left:300px;
+  width:300px;
+  height:300px;
+  padding: 50px;
+  border-radius: 80px;
+  float: left;
+
+}
+
+#contact{
+  
+  color: aliceblue;
+}
+
+.headingcontact{
+  margin-bottom:50px;
+  color: #f2f2f2;
+  margin-left: 600px;
+  margin-top: 100px;
+
+}
+
+.contact-tab{
+  margin-top: 70px;
+  margin-left: 400px;
+}
+
+.headingprojects{
+  color: #f2f2f2;
+  margin-left: 600px;
+
+}
+
+#projects{
+  margin-bottom:400px;
+}
+.harvestify{
+  width:380px;
+  height:400px;
+  padding: 30px;
+  border-radius: 60px;
+
+}
+
+.quizzapp{
+  
+  padding: 30px;
+  border-radius: 60px;
+  float: left;
+  width:380px;
+  height:400px;
+  margin-left: 30px;
+
+
+}
+
+.todo{
+  padding: 30px;
+  border-radius: 60px;
+  float: left;
+  width:380px;
+  height:400px;
+}
+.simon{
+  padding: 30px;
+  border-radius: 60px;
+  margin-left:100px;
+  width:380px;
+  height:400px;
+  
+}
+.weather{
+  padding: 30px;
+  border-radius: 60px;
+  float: left;
+  margin-left:200px;
+  width:380px;
+  height:400px;
+
+}
+
+
+
+
+.container {
+	
+	padding: 40px;
+	border-radius: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+	color:white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+	background-color: #4e73df;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #375abb;
+}
+
+.resume{
+  height: 200px;
+  width: 200px;
+  border-radius:10px;
+  margin-left: 170px;
+}
+
+.linkedin{
+  height: 200px;
+  width: 200px;
+  border-radius:10px;
+  margin-left: 200px;
+
+}
+
+.twitter{
+  height: 200px;
+  width: 200px;
+  border-radius:10px;
+  margin-left: 200px;
+}
+
+.social-media-links{
+  margin-top:100px;
+}
+
+.social-media-links-headings{
+  margin-top:170px;
+  color: white;
+  margin-left:400px;
+}
+
+.contact-img{
+  width:500px;
+  height:300px;
+  
+}

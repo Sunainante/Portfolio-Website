@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color:white;
+  }
+  .container {
+      width: 95%;
+      max-width: 1160px;
+      margin: auto;
+  }
+  .animated-heading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+  }
+  h1 {
+      color: rgb(41, 4, 249);
+      font-weight: 500;
+  }
+  span#words {
+      font-weight: bolder;
+  }
+
+  .portfolio-button{
+    width:300px;
+    height:200px;
+    margin-left:1000px;
+  }
